@@ -1,22 +1,14 @@
-# Student-Management-System
-        
-def add_students():
-    students = []
+# Student Management System
 
-    for i in range(5):
-        name = input("Enter student name: ")
-        marks = input("Enter student marks: ")
+This is a simple Python program to manage student records.
 
-        students.append([name, marks])
+## Features
+- Add student names
+- Enter student marks
+- Display student records
 
-    return students
+## Technologies Used
+Python
 
-def display_students(students):
-    print("Student Records:")
-    for student in students:
-        print("Name:", student[0],"  " "---" "  " "Marks:", student[1])
-
-# Main Program
-student_list = add_students()
-display_students(student_list)
-
+## Author
+Shujaat Ali
